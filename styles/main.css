@@ -530,6 +530,7 @@ header {
   text-align: center;
   text-transform: uppercase;
   margin-top: 140px;
+  margin-bottom: 50px;
 }
 
 .katta {
@@ -895,6 +896,7 @@ header {
 }
 
 .btn:hover {
+  cursor: pointer;
   background-color: aquamarine;
 }
 .btn:hover .btn-dack {
