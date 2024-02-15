@@ -203,7 +203,7 @@
   width: 183px;
 }
 // =================================================================================================================================
-.uchinchi {
+.uchinchi-container {
   position: relative;
 }
 @media (max-width: 1300px) {
@@ -247,7 +247,7 @@
   gap: 50px;
 }
 .dack {
-  color: rgb(40, 43, 34);
+  color: rgb(165, 246, 3);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 500;
@@ -288,14 +288,13 @@
 .bir1 {
   position: absolute;
   width: 160px;
-  left: 120px;
-  top: 0px;
-  left: 750px;
+  left: 0;
+  top: 140px;
 }
 .ikki2 {
   position: absolute;
   top: 150px;
-  right: 750px;
+  right: 0;
 }
 // ========================================================================================================================
 .pas-title {
