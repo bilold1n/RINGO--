@@ -1,0 +1,397 @@
+.orab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+  background-size: 1800px;
+}
+@media (max-width: 1000px) {
+  .orab {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .baqa {
+    display: none;
+  }
+  .raqam {
+    display: none;
+  }
+}
+.hero-title {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+.hero-dack {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.btn {
+  margin-bottom: 120px;
+}
+.line {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) -13.191%,
+    rgba(0, 0, 0, 0.85) 94.008%
+  );
+  width: 100%;
+  max-width: 1300px;
+  margin-bottom: 25px;
+}
+.imglar {
+  display: flex;
+  gap: 1100px;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.baqa {
+  display: flex;
+  gap: 30px;
+  margin-right: auto;
+}
+.raqam {
+  display: flex;
+  gap: 15px;
+}
+// ======================================================================================
+
+.birinchi-title {
+  text-align: center;
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 140px;
+}
+.katta {
+  display: flex;
+  justify-content: space-between;
+}
+.orab1 {
+  border-left: 1px solid rgba(0, 0, 0, 0.164);
+  padding-left: 20px;
+}
+.orab11 {
+  border-left: 1px solid rgba(0, 0, 0, 0.164);
+  border-right: 1px solid rgba(0, 0, 0, 0.164);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bir {
+  color: rgba(40, 43, 34, 0.444);
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.birinchi-dack {
+  color: rgb(61, 74, 57);
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+@media (max-width: 1240px) {
+  .katta {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    .orab1 {
+      border: none;
+    }
+    .orab11 {
+      border: none;
+    }
+  }
+}
+// =============================================================
+.ikkinchi {
+  background: #3d4a39;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ikkinchi-container {
+  display: flex;
+  flex-direction: column;
+}
+.ikkinchi-title {
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.birinchi-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.ikkinchi-div {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .ikkinchi-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .birinchi-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ikkinchi-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ikkinchi-title {
+    font-size: 25px;
+  }
+}
+.img-ikki {
+  width: 108px;
+}
+.img-ikki1 {
+  width: 148px;
+}
+.img-ikki2 {
+  width: 145px;
+}
+.img-ikki3 {
+  width: 106px;
+}
+.img-ikki4 {
+  width: 278px;
+}
+.img-ikki5 {
+  width: 183px;
+}
+// =================================================================================================================================
+.uchinchi {
+  position: relative;
+}
+@media (max-width: 1300px) {
+  .bir1 {
+    display: none;
+  }
+  .ikki2 {
+    display: none;
+  }
+  .div {
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .kkk {
+    border: none;
+  }
+  .dack {
+    border: none;
+  }
+}
+.uchinchi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-top: 140px;
+}
+.uchinchi-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.div {
+  display: flex;
+  gap: 50px;
+}
+.dack {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 370px;
+  border-right: 1px solid #00000023;
+  padding-right: 40px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+.dack1 {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 370px;
+  padding-left: 30px;
+  padding-top: 35px;
+}
+.line1 {
+  width: 100%;
+  max-width: 928px;
+  border: 1px solid rgb(40, 43, 34);
+  opacity: 0.2;
+  margin-top: 80px;
+}
+.line2 {
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid rgb(40, 43, 34);
+  opacity: 0.2;
+}
+.bir1 {
+  position: absolute;
+  width: 160px;
+  left: 120px;
+  top: 0px;
+  left: 750px;
+}
+.ikki2 {
+  position: absolute;
+  top: 150px;
+  right: 750px;
+}
+// ========================================================================================================================
+.pas-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 140px;
+}
+.line7 {
+  margin-top: 80px;
+  border: 1px solid rgb(40, 43, 34);
+  opacity: 0.2;
+  width: 100%;
+  max-width: 1300px;
+  margin-bottom: 40px;
+}
+// ======================================================================================================================
+.pas-container {
+  position: relative;
+}
+.line71 {
+  margin-top: 80px;
+  border: 1px solid rgb(40, 43, 34);
+  opacity: 0.2;
+  width: 100%;
+  max-width: 1450px;
+  margin-bottom: 40px;
+}
+.tepa {
+  display: flex;
+  justify-content: space-between;
+}
+.nol {
+  color: rgba(40, 43, 34, 0.136);
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 50px;
+}
+.tepa-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 50px;
+}
+.tepa-dack {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 470px;
+}
+.nol7 {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 50px;
+  color: #ae7b3c;
+}
+.tepa-title7 {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 50px;
+  color: #ae7b3c;
+}
+.imgk {
+  position: absolute;
+  top: 620px;
+  left: 190px;
+}
+@media (max-width: 900px) {
+  .imgk {
+    display: none;
+  }
+  .nol7 {
+    margin-right: 10px;
+  }
+}

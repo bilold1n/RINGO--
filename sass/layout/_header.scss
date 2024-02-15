@@ -1,0 +1,68 @@
+header {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 20px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.link {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ikonlar {
+  display: flex;
+  gap: 70px;
+}
+.insta {
+  display: flex;
+  gap: 20px;
+}
+.phone {
+  font-size: 10;
+}
+.phone1 {
+  display: flex;
+  align-items: center;
+}
+.link:hover {
+  color: #f5bc00;
+  cursor: pointer;
+}
+.img-header:hover {
+  cursor: pointer;
+  background-color: #2d00f5;
+}
+.phone:hover {
+  cursor: pointer;
+  color: #f5bc00;
+}
+@media (max-width: 980px), (mini-width: 300px) {
+  .navbar {
+    display: none;
+  }
+  .insta {
+    gap: 10px;
+  }
+  .ikonlar {
+    gap: 10px;
+  }
+  .phone {
+    font-size: 10px;
+  }
+  .logo {
+    margin-right: 20px;
+  }
+}
