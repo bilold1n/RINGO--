@@ -68,7 +68,7 @@
   display: flex;
   gap: 15px;
 }
-// ======================================================================================
+// ======================================================================================================================
 
 .birinchi-title {
   text-align: center;
@@ -225,6 +225,12 @@
   }
   .dack {
     border: none;
+    width: 100%;
+    max-width: 300px;
+  }
+  .dack1 {
+    width: 100%;
+    max-width: 300px;
   }
 }
 .uchinchi-container {
@@ -363,6 +369,10 @@
   width: 100%;
   max-width: 470px;
 }
+.dacklar {
+  width: 100%;
+  max-width: 480px;
+}
 .nol7 {
   font-family: Raleway;
   font-size: 24px;
@@ -387,11 +397,201 @@
   top: 620px;
   left: 190px;
 }
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
   .imgk {
     display: none;
   }
+}
+@media (max-width: 900px) {
   .nol7 {
     margin-right: 10px;
+  }
+  .nol {
+    margin-right: 10px;
+  }
+  .tepa-title {
+    font-size: 15px;
+  }
+  .tepa-title7 {
+    font-size: 15px;
+  }
+  .tepa-dack {
+    width: 100%;
+    max-width: 300px;
+    font-size: 10px;
+    padding-left: 20px;
+  }
+  .pas-title {
+    font-size: 20px;
+  }
+}
+// ==================================================================================================
+.form-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 140px;
+}
+form {
+  width: 100%;
+  max-width: 800px;
+  background-color: #3d4a39;
+
+  .form-orab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .input {
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid rgba(105, 103, 103, 0.281);
+    margin-bottom: 30px;
+  }
+  .input1 {
+    border: none;
+    border-bottom: 1px solid rgba(105, 103, 103, 0.281);
+    background-color: inherit;
+    margin-bottom: 15px;
+  }
+}
+.form-title {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.form-dack {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  max-width: 310px;
+  margin-bottom: 40px;
+}
+.yozuv {
+  color: rgba(255, 255, 255, 0.19);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.form-img {
+  margin-right: 5px;
+}
+.dib {
+  display: flex;
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+.lla {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.div-rasm {
+  width: 100%;
+  max-width: 850px;
+  height: 716px;
+}
+@media (max-width: 900px) {
+  .div-rasm {
+    display: none;
+  }
+  .form-title {
+    font-size: 20px;
+  }
+  .form-dack {
+    font-size: 11px;
+    padding-left: 5px;
+  }
+}
+// =============================================================================================================
+.pasi-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.pasi-orab {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.pasi-birinchi {
+  background: #ffffff;
+}
+.pasi-birinchi-img {
+  margin-bottom: 35px;
+}
+.pasi-birinchi-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.pasi-birinchi-dack {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  max-width: 210px;
+}
+.pas-birnchi-orab {
+  display: flex;
+  gap: 80px;
+}
+.pas-ikkinchi-orab {
+  display: flex;
+  gap: 80px;
+}
+@media (max-width: 1050px) {
+  .pasi-title {
+    font-size: 25px;
+  }
+  .pasi-birinchi-title {
+    font-size: 10px;
+  }
+  .pas-birnchi-orab {
+    flex-direction: column;
+  }
+  .pas-ikkinchi-orab {
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .pasi-orab {
+    flex-direction: column;
   }
 }
