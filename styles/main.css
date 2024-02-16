@@ -1074,6 +1074,15 @@ form .input1 {
   gap: 80px;
 }
 
+.line-katta {
+  border: 1px solid rgb(40, 43, 34);
+  opacity: 0.2;
+  width: 100%;
+  max-width: 1300px;
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
+
 @media (max-width: 1050px) {
   .pasi-title {
     font-size: 25px;
