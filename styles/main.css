@@ -445,6 +445,241 @@ header {
     margin-right: 20px;
   }
 }
+.sitelar {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+
+footer {
+  background-color: rgb(236, 235, 234);
+  padding-top: 50px;
+  height: 20%;
+}
+
+.footer-katta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site {
+  color: rgba(40, 43, 34, 0.389);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.icon1 {
+  width: 18px;
+}
+
+.icon12 {
+  width: 10px;
+}
+
+.link-footer {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-orab {
+  display: flex;
+  gap: 85px;
+}
+
+.footer-birinchi {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-ikkinchi {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tel-orab {
+  display: flex;
+  gap: 10px;
+}
+
+.link-footer:hover {
+  color: rgb(255, 153, 0);
+}
+
+.tel2 {
+  color: rgb(61, 74, 57);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.tel213 {
+  display: none;
+}
+
+.footer-line {
+  width: 100%;
+  max-width: 1600px;
+  border: 1px solid rgb(40, 43, 34);
+  opacity: 0.2;
+  margin-bottom: 100px;
+}
+
+.footer-rasmlar {
+  margin-top: -30px;
+}
+
+.footer-rasmlar-dack {
+  color: rgb(61, 74, 57);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 38px;
+}
+
+.footer-rasm {
+  display: flex;
+  gap: 38px;
+  margin-bottom: 38px;
+  align-items: center;
+}
+
+.footer-rasm-1 {
+  width: 100%;
+  max-width: 96px;
+}
+
+.footer-rasm-2 {
+  width: 100%;
+  max-width: 138px;
+}
+
+.footer-rasm-3 {
+  width: 100%;
+  max-width: 110px;
+}
+
+.footer-rasm-4 {
+  width: 100%;
+  max-width: 93px;
+}
+
+.footer-rasm-5 {
+  width: 100%;
+  max-width: 92px;
+}
+
+.footer-rasm-6 {
+  width: 100%;
+  max-width: 40px;
+}
+
+.footer-rasm-7 {
+  width: 100%;
+  max-width: 112px;
+}
+
+.footer-rasm-8 {
+  width: 100%;
+  max-width: 116px;
+}
+
+.footer-rasm-9 {
+  width: 100%;
+  max-width: 96px;
+}
+
+.kilom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+
+.bir11:hover {
+  cursor: pointer;
+  color: rgb(255, 153, 0);
+}
+
+.ikki22:hover {
+  cursor: pointer;
+  color: rgb(255, 153, 0);
+}
+
+.bir11 {
+  /* text_14px (medium) */
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ikki22 {
+  /* text_14px (medium) */
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.icon1:hover {
+  cursor: pointer;
+  background-color: rgb(255, 153, 0);
+}
+
+.icon12:hover {
+  cursor: pointer;
+  background-color: rgb(255, 153, 0);
+}
+
+.icon1 {
+  margin-left: 10px;
+}
+
+@media (max-width: 880px) {
+  .footer-katta {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-rasm-6 {
+    display: none;
+  }
+  .footer-rasm-orab {
+    display: flex;
+  }
+  .footer-rasm {
+    flex-direction: column;
+    gap: 38px;
+  }
+}
 .orab {
   display: flex;
   flex-direction: column;
@@ -454,10 +689,14 @@ header {
   background-size: 1800px;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 @media (max-width: 1000px) {
   .orab {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 200px;
   }
   .baqa {
     display: none;
@@ -915,6 +1154,10 @@ header {
   margin-bottom: 140px;
 }
 
+.form-orab {
+  display: flex;
+}
+
 form {
   width: 100%;
   max-width: 800px;
@@ -983,6 +1226,7 @@ form .input1 {
   display: flex;
   margin-top: -50px;
   margin-bottom: 100px;
+  align-items: left;
 }
 
 .lla {
@@ -1001,8 +1245,17 @@ form .input1 {
   height: 716px;
 }
 
+.div-rasm1 {
+  width: 100%;
+  max-width: 850px;
+  height: 650px;
+}
+
 @media (max-width: 900px) {
   .div-rasm {
+    display: none;
+  }
+  .div-rasm1 {
     display: none;
   }
   .form-title {
@@ -1011,8 +1264,14 @@ form .input1 {
   .form-dack {
     font-size: 11px;
     padding-left: 5px;
+    justify-content: left;
   }
 }
+.form-dack-orab {
+  display: flex;
+  flex-direction: column;
+}
+
 .pasi-title {
   color: rgb(40, 43, 34);
   font-family: Raleway;
@@ -1095,6 +1354,7 @@ form .input1 {
   }
   .pas-ikkinchi-orab {
     flex-direction: column;
+    margin-top: -20px;
   }
 }
 @media (max-width: 650px) {
@@ -1102,10 +1362,230 @@ form .input1 {
     flex-direction: column;
   }
 }
+.rasmlar-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-right: -240px;
+}
+
+.rasmlar-orab {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.rasm-1 {
+  width: 100%;
+  max-width: 660px;
+}
+
+.rasm-2 {
+  width: 100%;
+  max-width: 600px;
+}
+
+.rasm-3 {
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (max-width: 1500px) {
+  .rasm-3 {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .rasmlar {
+    margin-right: -20px;
+  }
+  .rasmlar-title {
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    margin-right: 240px;
+  }
+  .rasm-1 {
+    display: none;
+  }
+  .rasm-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.sovgalar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.sovga {
+  background: rgb(243, 243, 243);
+}
+
+.sovgalar-rasm1 {
+  width: 100%;
+  max-width: 150px;
+  margin-top: -50px;
+}
+
+.sovgalar-orab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sovgalar-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.sovglar-dack {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 355px;
+}
+
+.sovgalar-rasm2 {
+  width: 100%;
+  max-width: 166px;
+  margin-top: -50px;
+}
+
+@media (max-width: 800px) {
+  .sovgalar-rasm1 {
+    display: none;
+  }
+  .sovgalar-rasm2 {
+    display: none;
+  }
+  .sovgalar-title {
+    font-size: 20px;
+  }
+  .sovgalar-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+}
+
+.img-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.img-rablar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-1 {
+  width: 100%;
+  max-width: 285px;
+}
+
+.img-2 {
+  width: 100%;
+  max-width: 285px;
+}
+
+.img-3 {
+  width: 100%;
+  max-width: 285px;
+}
+
+.img-4 {
+  width: 100%;
+  max-width: 285px;
+}
+
+.strelkalar {
+  display: flex;
+  margin-bottom: 140px;
+}
+
+.strelka {
+  width: 100%;
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  .img-4 {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .img-3 {
+    display: none;
+  }
+  .img-1 {
+    width: 100%;
+    max-width: 150px;
+  }
+  .img-2 {
+    width: 100%;
+    max-width: 150px;
+  }
+  .strelka {
+    width: 100%;
+    max-width: 30px;
+  }
+  .strelkalar {
+    margin-right: -45px;
+  }
+  .img-title {
+    font-size: 20px;
+  }
+}
 .btn {
   padding: 22px 56px;
   background-color: #ae7b3c;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-dack {

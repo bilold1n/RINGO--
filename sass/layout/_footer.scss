@@ -1,0 +1,200 @@
+.sitelar {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+footer {
+  background-color: rgb(236, 235, 234);
+  padding-top: 50px;
+  height: 20%;
+}
+.footer-katta {
+  display: flex;
+  justify-content: space-between;
+}
+.site {
+  color: rgba(40, 43, 34, 0.389);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.icon1 {
+  width: 18px;
+}
+.icon12 {
+  width: 10px;
+}
+.link-footer {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer-orab {
+  display: flex;
+  gap: 85px;
+}
+.footer-birinchi {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-ikkinchi {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.tel-orab {
+  display: flex;
+  gap: 10px;
+}
+.link-footer:hover {
+  color: rgb(255, 153, 0);
+}
+.tel2 {
+  color: rgb(61, 74, 57);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.tel213 {
+  display: none;
+}
+.footer-line {
+  width: 100%;
+  max-width: 1600px;
+  border: 1px solid rgb(40, 43, 34);
+  opacity: 0.2;
+  margin-bottom: 100px;
+}
+.footer-rasmlar {
+  margin-top: -30px;
+}
+.footer-rasmlar-dack {
+  color: rgb(61, 74, 57);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 38px;
+}
+.footer-rasm {
+  display: flex;
+  gap: 38px;
+  margin-bottom: 38px;
+  align-items: center;
+}
+.footer-rasm-1 {
+  width: 100%;
+  max-width: 96px;
+}
+.footer-rasm-2 {
+  width: 100%;
+  max-width: 138px;
+}
+.footer-rasm-3 {
+  width: 100%;
+  max-width: 110px;
+}
+.footer-rasm-4 {
+  width: 100%;
+  max-width: 93px;
+}
+.footer-rasm-5 {
+  width: 100%;
+  max-width: 92px;
+}
+.footer-rasm-6 {
+  width: 100%;
+  max-width: 40px;
+}
+.footer-rasm-7 {
+  width: 100%;
+  max-width: 112px;
+}
+.footer-rasm-8 {
+  width: 100%;
+  max-width: 116px;
+}
+.footer-rasm-9 {
+  width: 100%;
+  max-width: 96px;
+}
+.kilom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+.bir11:hover {
+  cursor: pointer;
+  color: rgb(255, 153, 0);
+}
+.ikki22:hover {
+  cursor: pointer;
+  color: rgb(255, 153, 0);
+}
+.bir11 {
+  /* text_14px (medium) */
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ikki22 {
+  /* text_14px (medium) */
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.icon1:hover {
+  cursor: pointer;
+  background-color: rgb(255, 153, 0);
+}
+.icon12:hover {
+  cursor: pointer;
+  background-color: rgb(255, 153, 0);
+}
+.icon1 {
+  margin-left: 10px;
+}
+@media (max-width: 880px) {
+  .footer-katta {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-rasm-6 {
+    display: none;
+  }
+  .footer-rasm-orab {
+    display: flex;
+  }
+  .footer-rasm {
+    flex-direction: column;
+    gap: 38px;
+  }
+}

@@ -6,10 +6,13 @@
   background: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
   background-size: 1800px;
 }
+main {
+  overflow-x: hidden;
+}
 @media (max-width: 1000px) {
   .orab {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 200px;
   }
   .baqa {
     display: none;
@@ -431,6 +434,9 @@
   align-items: center;
   margin-bottom: 140px;
 }
+.form-orab {
+  display: flex;
+}
 form {
   width: 100%;
   max-width: 800px;
@@ -495,6 +501,7 @@ form {
   display: flex;
   margin-top: -50px;
   margin-bottom: 100px;
+  align-items: left;
 }
 .lla {
   color: rgb(255, 255, 255);
@@ -510,8 +517,16 @@ form {
   max-width: 850px;
   height: 716px;
 }
+.div-rasm1 {
+  width: 100%;
+  max-width: 850px;
+  height: 650px;
+}
 @media (max-width: 900px) {
   .div-rasm {
+    display: none;
+  }
+  .div-rasm1 {
     display: none;
   }
   .form-title {
@@ -520,7 +535,12 @@ form {
   .form-dack {
     font-size: 11px;
     padding-left: 5px;
+    justify-content: left;
   }
+}
+.form-dack-orab {
+  display: flex;
+  flex-direction: column;
 }
 // =============================================================================================================
 .pasi-title {
@@ -596,10 +616,213 @@ form {
   }
   .pas-ikkinchi-orab {
     flex-direction: column;
+    margin-top: -20px;
   }
 }
 @media (max-width: 650px) {
   .pasi-orab {
     flex-direction: column;
+  }
+}
+// ============================================================================
+// .rasmlar {
+// }
+.rasmlar-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-right: -240px;
+}
+.rasmlar-orab {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.rasm-1 {
+  width: 100%;
+  max-width: 660px;
+}
+.rasm-2 {
+  width: 100%;
+  max-width: 600px;
+}
+.rasm-3 {
+  width: 100%;
+  max-width: 600px;
+}
+@media (max-width: 1500px) {
+  .rasm-3 {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .rasmlar {
+    margin-right: -20px;
+  }
+  .rasmlar-title {
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    margin-right: 240px;
+  }
+  .rasm-1 {
+    display: none;
+  }
+  .rasm-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+// ========================================================
+.sovgalar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+.sovga {
+  background: rgb(243, 243, 243);
+}
+.sovgalar-rasm1 {
+  width: 100%;
+  max-width: 150px;
+  margin-top: -50px;
+}
+.sovgalar-orab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sovgalar-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+.sovglar-dack {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 355px;
+}
+.sovgalar-rasm2 {
+  width: 100%;
+  max-width: 166px;
+  margin-top: -50px;
+}
+@media (max-width: 800px) {
+  .sovgalar-rasm1 {
+    display: none;
+  }
+  .sovgalar-rasm2 {
+    display: none;
+  }
+  .sovgalar-title {
+    font-size: 20px;
+  }
+  .sovgalar-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+// ===========================================================================
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+}
+.img-title {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.img-rablar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.img-1 {
+  width: 100%;
+  max-width: 285px;
+}
+.img-2 {
+  width: 100%;
+  max-width: 285px;
+}
+.img-3 {
+  width: 100%;
+  max-width: 285px;
+}
+.img-4 {
+  width: 100%;
+  max-width: 285px;
+}
+.strelkalar {
+  display: flex;
+  margin-bottom: 140px;
+}
+.strelka {
+  width: 100%;
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  .img-4 {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .img-3 {
+    display: none;
+  }
+  .img-1 {
+    width: 100%;
+    max-width: 150px;
+  }
+  .img-2 {
+    width: 100%;
+    max-width: 150px;
+  }
+  .strelka {
+    width: 100%;
+    max-width: 30px;
+  }
+  .strelkalar {
+    margin-right: -45px;
+  }
+  .img-title {
+    font-size: 20px;
   }
 }
