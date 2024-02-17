@@ -3,7 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)),
+    url(../images/bg-brat.png);
+  background-position: top;
   background-size: 1800px;
 }
 main {
@@ -13,6 +15,11 @@ main {
   .orab {
     padding-left: 250px;
     padding-right: 200px;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .hero-title {
+    font-size: 0px;
   }
   .baqa {
     display: none;
@@ -32,6 +39,11 @@ main {
   text-transform: uppercase;
   margin-top: 120px;
   margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .hero-title {
+    font-size: 30px;
+  }
 }
 .hero-dack {
   color: rgb(255, 255, 255);
@@ -58,8 +70,7 @@ main {
 }
 .imglar {
   display: flex;
-  gap: 1100px;
-  justify-content: space-between;
+  gap: 500px;
   margin-bottom: 45px;
 }
 .baqa {
@@ -70,6 +81,14 @@ main {
 .raqam {
   display: flex;
   gap: 15px;
+}
+@media (max-width: 920px) {
+  .imglar {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
 }
 // ======================================================================================================================
 

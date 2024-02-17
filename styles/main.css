@@ -376,6 +376,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .header-list {
@@ -428,9 +429,38 @@ header {
   color: #f5bc00;
 }
 
+.menu-btn {
+  border: none;
+  background-color: inherit;
+  display: none;
+  margin-left: 10px;
+}
+
+.menu-btn:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 980px), (mini-width: 300px) {
   .navbar {
+    background-color: #fff;
+    z-index: 1;
     display: none;
+  }
+  .navbar .header-list {
+    position: absolute;
+    background-color: #fff;
+    z-index: 5;
+    flex-direction: column;
+    width: 50%;
+    left: 50%;
+    top: 50px;
+    height: 1000px;
+  }
+  .active {
+    display: block;
+  }
+  .menu-btn {
+    display: block;
   }
   .insta {
     gap: 10px;
@@ -685,7 +715,8 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)), url(../images/bg-brat.png);
+  background-position: top;
   background-size: 1800px;
 }
 
@@ -697,6 +728,11 @@ main {
   .orab {
     padding-left: 250px;
     padding-right: 200px;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .hero-title {
+    font-size: 0px;
   }
   .baqa {
     display: none;
@@ -718,6 +754,11 @@ main {
   margin-bottom: 20px;
 }
 
+@media (max-width: 800px) {
+  .hero-title {
+    font-size: 30px;
+  }
+}
 .hero-dack {
   color: rgb(255, 255, 255);
   font-family: Raleway;
@@ -742,8 +783,7 @@ main {
 
 .imglar {
   display: flex;
-  gap: 1100px;
-  justify-content: space-between;
+  gap: 500px;
   margin-bottom: 45px;
 }
 
@@ -758,6 +798,14 @@ main {
   gap: 15px;
 }
 
+@media (max-width: 920px) {
+  .imglar {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+}
 .birinchi-title {
   text-align: center;
   color: rgb(40, 43, 34);

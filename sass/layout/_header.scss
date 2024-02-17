@@ -7,6 +7,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .header-list {
   display: flex;
@@ -49,9 +50,36 @@ header {
   cursor: pointer;
   color: #f5bc00;
 }
+.menu-btn {
+  border: none;
+  background-color: inherit;
+  display: none;
+  margin-left: 10px;
+}
+.menu-btn:hover {
+  cursor: pointer;
+}
 @media (max-width: 980px), (mini-width: 300px) {
   .navbar {
+    background-color: #fff;
+    z-index: 1;
     display: none;
+    .header-list {
+      position: absolute;
+      background-color: #fff;
+      z-index: 5;
+      flex-direction: column;
+      width: 50%;
+      left: 50%;
+      top: 50px;
+      height: 1000px;
+    }
+  }
+  .active {
+    display: block;
+  }
+  .menu-btn {
+    display: block;
   }
   .insta {
     gap: 10px;
