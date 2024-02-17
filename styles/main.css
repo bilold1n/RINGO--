@@ -490,6 +490,7 @@ header {
 footer {
   background-color: rgb(236, 235, 234);
   padding-top: 50px;
+  height: 20%;
 }
 
 .footer-katta {
