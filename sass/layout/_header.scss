@@ -56,6 +56,9 @@ header {
   display: none;
   margin-left: 10px;
 }
+.nav-line {
+  display: none;
+}
 .menu-btn:hover {
   cursor: pointer;
 }
@@ -64,6 +67,7 @@ header {
     background-color: #fff;
     z-index: 1;
     display: none;
+
     .header-list {
       position: absolute;
       background-color: #fff;
@@ -73,9 +77,16 @@ header {
       left: 50%;
       top: 50px;
       height: 1000px;
+      box-shadow: -95px 39px 34px 6px rgba(34, 60, 80, 0.2);
     }
   }
   .active {
+    .nav-line {
+      display: block;
+      border: 1px solid black;
+      margin-top: 5px;
+      border-radius: 11px;
+    }
     display: block;
   }
   .menu-btn {

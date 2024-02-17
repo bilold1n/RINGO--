@@ -14,9 +14,10 @@ main {
 @media (max-width: 1000px) {
   .orab {
     padding-left: 250px;
-    padding-right: 200px;
+    padding-right: 100px;
     background-position: right;
     background-repeat: no-repeat;
+    margin-left: -15px;
   }
   .hero-dack {
     display: flex;

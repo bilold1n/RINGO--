@@ -441,6 +441,10 @@ header {
   margin-left: 10px;
 }
 
+.nav-line {
+  display: none;
+}
+
 .menu-btn:hover {
   cursor: pointer;
 }
@@ -460,9 +464,16 @@ header {
     left: 50%;
     top: 50px;
     height: 1000px;
+    box-shadow: -95px 39px 34px 6px rgba(34, 60, 80, 0.2);
   }
   .active {
     display: block;
+  }
+  .active .nav-line {
+    display: block;
+    border: 1px solid black;
+    margin-top: 5px;
+    border-radius: 11px;
   }
   .menu-btn {
     display: block;
@@ -727,6 +738,9 @@ footer {
     flex-direction: column;
     gap: 50px;
   }
+  .ul {
+    background-color: #fff;
+  }
 }
 .orab {
   display: flex;
@@ -745,9 +759,10 @@ main {
 @media (max-width: 1000px) {
   .orab {
     padding-left: 250px;
-    padding-right: 200px;
+    padding-right: 100px;
     background-position: right;
     background-repeat: no-repeat;
+    margin-left: -15px;
   }
   .hero-dack {
     display: flex;
