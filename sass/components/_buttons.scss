@@ -31,3 +31,21 @@
   margin-bottom: -3px;
   margin-right: 5px;
 }
+.btn1 {
+  padding: 22px 56px;
+  background-color: #ae7b3c;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.btn1:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+
+  .btn-dack {
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+  }
+}
