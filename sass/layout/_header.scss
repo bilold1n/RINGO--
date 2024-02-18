@@ -81,6 +81,9 @@ header {
     }
   }
   .active {
+    .menu-btn1 {
+      display: block;
+    }
     .nav-line {
       display: block;
       border: 1px solid black;
@@ -99,7 +102,7 @@ header {
     gap: 10px;
   }
   .phone {
-    font-size: 10px;
+    font-size: 7px;
     margin-right: 10px;
   }
   .logo {

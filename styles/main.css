@@ -469,6 +469,9 @@ header {
   .active {
     display: block;
   }
+  .active .menu-btn1 {
+    display: block;
+  }
   .active .nav-line {
     display: block;
     border: 1px solid black;
@@ -485,7 +488,7 @@ header {
     gap: 10px;
   }
   .phone {
-    font-size: 10px;
+    font-size: 7px;
     margin-right: 10px;
   }
   .logo {
@@ -1684,12 +1687,13 @@ form .input1 {
 .btn-dack {
   color: rgb(255, 255, 255);
   font-family: Raleway;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 700;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: left;
   background-color: #ae7b3c;
+  width: 110px;
 }
 
 .btn:hover {
